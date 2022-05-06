@@ -16,7 +16,7 @@ Product.init(
       autoIncrement: true,
     },
     product_name: { type: DataTypes.STRING, allowNull: false },
-    price: { type: Data },
+    price: { type: DataTypes.DECIMAL, allowNull: false },
   },
   {
     sequelize,
